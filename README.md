@@ -47,7 +47,7 @@ This diagram provides a more detailed view of the project structure, highlightin
 
 ## Project Structure
 
-<img src="images/estrutura_projeto.png" alt="UML Diagram" width="600"/>
+<img src="images/estrutura_projeto.PNG" alt="UML Diagram" width="600"/>
 
 ---
 
