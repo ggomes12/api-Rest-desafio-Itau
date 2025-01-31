@@ -22,7 +22,7 @@ public class TransactionController {
 	
 	@PostMapping
 	public ResponseEntity<Void> addTransaction(@RequestBody TransactionRequestDTO dto) {
-
+		
 		transactionService.addTransaction(dto);
 
 		return ResponseEntity.status(HttpStatus.CREATED).build();
