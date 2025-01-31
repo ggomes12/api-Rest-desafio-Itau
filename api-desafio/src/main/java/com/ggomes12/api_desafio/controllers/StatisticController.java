@@ -32,8 +32,8 @@ public class StatisticController {
 	 												required = false, defaultValue = "60") 
 	 													Integer searchInterval) {
 		 
-		 statisticService.calculateStatistics(searchInterval);
+		 StatisticResponseDTO statistics = statisticService.calculateStatistics(searchInterval);
 		 
-		 return ResponseEntity.ok(statisticService.calculateStatistics(searchInterval));
+		 return ResponseEntity.ok(statistics);
 	 }
 }

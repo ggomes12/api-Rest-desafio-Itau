@@ -51,7 +51,7 @@ public class TransactionController {
 
 		transactionService.clearTransactions();
 
-		return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+		return ResponseEntity.ok().build();
 	}
 
 }
