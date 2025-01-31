@@ -23,6 +23,10 @@ public class StatisticService {
         DoubleSummaryStatistics statisticTransactions = transactions.stream()
     		   .mapToDouble(TransactionRequestDTO::valor).summaryStatistics();
         
+		if (transactions.isEmpty()) {
+			return new StatisticResponseDTO(0L, 0.0, 0.0, 0.0, 0.0);
+		}
+        
 		return new StatisticResponseDTO(statisticTransactions.getCount(), 
 				statisticTransactions.getSum(),
 				statisticTransactions.getAverage(), 
