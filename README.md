@@ -125,10 +125,11 @@ The application will start on `http://localhost:8080`.
 ## Swagger Documentation
 
 The API documentation is available at:
-```html
-<a href="http://localhost:8080/swagger-ui.html">Swagger UI</a>
-```
 
-<img src="images/swagger.png" alt="UML Diagram" width="800"/>
+`http://localhost:8080/swagger-ui/index.html`
+
+<br>
+
+<img src="images/swagger.PNG" alt="UML Diagram" width="800"/>
 
 
